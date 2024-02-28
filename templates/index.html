@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style_index.css') }}">
+    <script src="{{ url_for('static', filename='js/script.js') }}"></script>
+    <link rel="script" href="../static/js/scripts.js">
+    <link rel="shortcut icon" href="../static/imagens/faviconsea.png" type="image/x-icon">
+    <title>SEATOOLS</title>
+</head>
+
+
+<body>
+
+    <img src="{{ url_for('static', filename='imagens/seatelecomimg.png') }}" alt="LOGO">
+    <label >FASE DE TESTE!</label>
+
+    <div class="button-container">
+    <button id="botao1" onclick="Homepage()">Proporcional de Plano</button>
+    <button id="botao2" onclick="Homepage2()">Mudança de Vencimento</button>
+    <button id="botao3" onclick="Homepage3()">Solicitação de Desconto</button>
+    <button id="botao4" onclick="Homepage4()">Cancelamento</button>
+    <button id="botao5" onclick="Homepage5()">Negociação</button>
+    </div>
+
+</body>
+</html>
