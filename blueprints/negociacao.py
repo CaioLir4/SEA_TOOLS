@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 from datetime import date, datetime
 from dateutil.relativedelta import relativedelta
 import calendar
@@ -26,7 +26,7 @@ def Calculo_negociacao1(valorBoleto, Data_Solicitacao ):
     
         r = f"Data Simulada:{Data_SolicitacaoBr}\nValor Boleto:{valorBoleto}\nResultado:{valor_total:.2f} "
         return r 
-=======
+
 import csv
 from datetime import date, datetime
 from dateutil.relativedelta import relativedelta
@@ -53,5 +53,3 @@ def Calculo_negociacao(pAtual, Data_Solicitacao):
     r = f"Data Simulada:{Data_SolicitacaoBr}\nPlano Atual:{plano_atual}\nResultado:{valor_total:.2f} "
 
     return r
-
->>>>>>> e4ac6ed48f6292e0bf623e71ddad65af3578f963

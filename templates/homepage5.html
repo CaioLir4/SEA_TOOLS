@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="static/faviconsea.png" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css2?family=Asap+Condensed:ital,wght@0,300;1,300&family=Jost:ital,wght@1,300&family=Julius+Sans+One&family=Literata:ital,opsz,wght@0,7..72,200;0,7..72,300;1,7..72,200&family=Mansalva&family=Pixelify+Sans&family=Poppins:wght@100&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style_homepage3.css') }}">
+    <link rel="shortcut icon" href="../static/imagens/faviconsea.png" type="image/x-icon">
+    <script src="{{ url_for('static', filename='js/script.js') }}"></script>
+    <title>Negociação de Debitos</title>
+
+
+
+</head>
+<body>
+
+   
+
+<div>Manutenção...</div>
+
+<!--<main class = "conteudo-principal">
+
+
+    <div class="autor">
+
+        <div class="imagens-laterais">
+            <img src="{{ url_for('static', filename='imagens/seatelecomimg.png') }}" alt="Logo"> 
+         </div> 
+    
+         <div class = "footer">
+    
+            <div class = "links">
+        
+            <a href="https://github.com/CaioLir4" target="_blank">Caio Lira | </a>
+              <a href="https://github.com/ewdson7" target="_blank">Ewdson Tiago | </a>
+                <a href="https://github.com/DevSabrisant" target="_blank">Sabrina Santana</a>
+    
+            </div>
+                <img id = "git" src="{{ url_for('static', filename='imagens/github.png') }}" alt="github">  
+            </div>
+    
+         </div>
+<div class="container">
+    <form action="/homepage5" method="post">
+
+        <label for="planoAtual">Plano do Cliente:</label>
+        <select id="planoAtual" name="planoAtual" required>
+            <option value="">Selecionar</option>
+            <option value="500_Connect">Plano 500 Sea Connect</option>
+            <option value="600_Super">Plano 600 Sea Super</option>
+            <option value="700_Hiper">Plano 700 Sea Hiper</option>
+            <option value="800_Ultra">Plano 800 Sea Ultra</option>
+            <option value="500up">Plano 500Up </option>
+            <option value="700up">Plano 700up </option>
+            <option value="250">Plano 250</option>
+            <option value="350">Plano 350</option>
+            <option value="450">Plano 450</option>
+            <option value="600">Plano 600</option>
+
+        </select>
+        <br>
+        <div>
+            <label for="dataSolicitacao">Data de vencimento Original:</label>
+            <input type="date" id="dataSolicitacao" name="dataSolicitacao" required>
+        </div>
+          <br>
+
+         <div class="button-container">
+            <button type="submit">Calcular</button>
+            <button type="button" onclick="copiarTexto3()">Copiar</button>
+        </div>
+
+        <textarea id="resultado_negociacao" name="resultado_negociacao" rows="4" readonly>{{ resultado_negociacao or 'Resultado' }}</textarea>
+
+        <button type="button" onclick="Home()">Voltar</button>
+    </form>
+
+
+
+</div>
+</main>
+
+
+
+</div>-->
+
+
+
+</body>
+</html>
