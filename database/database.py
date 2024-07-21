@@ -8,7 +8,7 @@ load_dotenv()
 #Descomente o #  e utilize a versão que voce desejar.
 
 #Versão para servidor remoto, hospedagem remota. Dados de acesso ficam no servidor remoto.
-db = PostgresqlDatabase(os.getenv('DATABASE_URI', ''))
+#db = PostgresqlDatabase(os.getenv('DATABASE_URI', ''))
 
 
 
@@ -18,4 +18,4 @@ db = PostgresqlDatabase(os.getenv('DATABASE_URI', ''))
 
 
 #Versão sqlite para desenvolvimento. É criado o banco autimaticamente.
-#db = SqliteDatabase('dbseatools.db')
+db = SqliteDatabase('dbseatools.db')
